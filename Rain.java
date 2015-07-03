@@ -1,5 +1,5 @@
 package Calandar;
-
+// Rework
 
 	import javax.microedition.khronos.opengles.GL10;
 
@@ -119,8 +119,5 @@ public class Rain  extends BaseExample {
 	        // Methods
 	        // ===========================================================
 
-	        // ===========================================================
-	        // Inner and Anonymous Classes
-	        // ===========================================================
 	}
 
