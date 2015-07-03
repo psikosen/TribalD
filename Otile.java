@@ -65,4 +65,4 @@ public class OrthogonalTiledMapRendererWithSprites extends OrthogonalTiledMapRen
 
 }
 
-OT
+
