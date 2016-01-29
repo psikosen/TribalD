@@ -2,7 +2,7 @@
  * Created by Rook on 6/18/2015.
  */
 public class LevelUpControl {
-
+// ALTER 
    /* private static LevelUpOption[] options = new LevelUpOption[]{
             new LevelUpOption("Increased hit points"){
                 public void invoke(Creature creature) { creature.gainMaxHp(); }
