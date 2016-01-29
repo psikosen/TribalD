@@ -69,7 +69,7 @@ public class AnimalData {
 	}
 	public void ifSick(){
 		
-if(a.sick == true){
+	if(a.sick == true){
 	for(int g = a.healthiness, o = a.hp;g>=20 || o<=20;g--,o--){
 				
 			}
