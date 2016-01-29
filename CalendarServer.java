@@ -1,9 +1,9 @@
 package Calandar;
 
 public class CalendarServer implements IDate{
-				private boolean loaded = false;
-				int day;
-				Season season;
+	private boolean loaded = false;
+	int day;
+	Season season;
 	private CalendarDate date = new CalendarDate(0,Season.SPRING,1);
 				
 	public CalendarDate getDate(){
