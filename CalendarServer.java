@@ -30,11 +30,11 @@ public class CalendarServer implements IDate{
 		}
 		date.setDay(day).setSeason(season).setYear(year);
 		//Potentially add to main game
-		//sendToEveryOne(new PacketSetCalendar(date));
+		//sendToEveryOne Packet Set Calendar => date ;
 		//PlantHelper.newDay();
 		
 		/*for(EntitiyPlayer player :(List<EntityPlayer>))*/
-		//pLAYERhELPER.getDate(player.newDay()
+		//pLAYERhELPER.getDate =>player.newDay()
 		loaded = true;
 		
 		return true;
