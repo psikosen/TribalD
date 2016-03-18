@@ -84,8 +84,9 @@ public class AnimalData {
 		this.isAttacking = isAttacking;
 	}
 	public int getDaysNotFed() {
-		if(daysNotFed > 4){
+	         switch(daysNotFed){
 			//enum behavior = ANGRY
+			a.hp -= 6;
 		}
 		
 		return daysNotFed;
