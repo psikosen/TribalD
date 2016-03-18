@@ -17,9 +17,14 @@ public class Disease {
             }
 
     Disease(Player p){
+                        p.infect();
 
 
             }
+            void infect() {
+                        
+                        
+            }           
     public void InfectionRATE(int nod){
          /*    switch(nod){
                   case nod < 10 :
