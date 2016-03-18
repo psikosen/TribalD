@@ -12,12 +12,38 @@ public class Disease {
         Severity = severity;
         this.numOfDaysInfected = numOfDaysInfected;
         this.chanceOfDying = chanceOfDying;
-    }
+        InfectionRATE(numOfDaysInfected);
+        
+            }
 
     Disease(Player p){
 
 
             }
+    public void InfectionRATE(int nod){
+         /*    switch(nod){
+                  case nod < 10 :
+                     chaceOfDying = chaceOfDying *= (10/100) ;                  
+                       break;   
+            
+                  case nod > 10 && nod < 20 :
+                     chaceOfDying = chaceOfDying  *= 30/100 ;                  
+                       break;
+                  case nod > 20 && nod < 40 :
+                     chaceOfDying = chaceOfDying  *= 50/100 ;                  
+                       break;
+                  case nod > 20 && nod < 40 :
+                     chaceOfDying = chaceOfDying  *= 60/100 ;                  
+                       break;
+                     default:
+                          chaceOfDying = 0 ;                  
+                    
+                       
+        }*/
+        
+   
+    }
+
 
     public String getName() {
         return name;
