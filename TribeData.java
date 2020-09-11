@@ -10,16 +10,14 @@ public class TribeData extends Entity {
             boolean producing;
             Calendar ticks;
             Creature NewTribeMemeber;
+            
     public TribeData(String name, int numOfMemebers, boolean producing) {
         this.name = name;
         this.numOfMemebers = numOfMemebers;
         this.producing = producing;
         if(ticks.TICKS_PER_DAY ==5000 ||ticks.TICKS_PER_DAY == 10000){
-        	
         	numOfMemebers += 2;
-        	
         	Creature NewMember = new Creature(NewTribeMemeber);
-        	
         }
     }
 
